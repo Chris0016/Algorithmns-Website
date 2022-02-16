@@ -503,7 +503,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
 }
 #fh5co-pricing .price {
-  font-size: 50px;
+  font-size: 40px;
   color: #fff;
 }
 #fh5co-pricing .price .currency {
@@ -957,3 +957,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+
+.struct-pics{
+  height: 400px !important;
+}
