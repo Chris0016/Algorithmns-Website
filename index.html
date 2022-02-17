@@ -147,35 +147,32 @@
             <div class="core-features">
               <div
                 class="grid2 to-animate"
-                style="background-image: url(images/full_image_2.jpg)"
+                style="background-image: url(images/Kenneth\ Iverson.jpg)"
               ></div>
               <div class="grid2">
                 <div class="core-f">
                   <div class="row">
                     <div class="col-md-12 to-animate">
                       <p>
-                        Far far away, behind the word mountains, far from the
-                        countries Vokalia and Consonantia, there live the blind
-                        texts. Far far away, behind the word mountains, far from
-                        the countries Vokalia and Consonantia, there live the
-                        blind texts. Separated they live in Bookmarksgrove right
-                        at the coast of the Semantics, a large language ocean.
-                        Far far away, behind the word mountains, far from the
-                        countries Vokalia and Consonantia, there live the blind
-                        texts. Separated they live in Bookmarksgrove right at
-                        the coast of the Semantics, a large language ocean
+                        The name "bubble sort" was first used by Kenneth E.
+                        Iverson in his book 'A Programming Language' in 1962.
+                        Iverson was a Canadian computer scientist known for his
+                        contributions to programming language like APL which
+                        paved the way for other programming languages.
                       </p>
                       <p>
-                        Far far away, behind the word mountains, far from the
-                        countries Vokalia and Consonantia, there live the blind
-                        texts. Far far away, behind the word mountains, far from
-                        the countries Vokalia and Consonantia, there live the
-                        blind texts. Separated they live in Bookmarksgrove right
-                        at the coast of the Semantics, a large language ocean.
-                        Far far away, behind the word mountains, far from the
-                        countries Vokalia and Consonantia, there live the blind
-                        texts. Separated they live in Bookmarksgrove right at
-                        the coast of the Semantics, a large language ocean.
+                        Bubble sort is an sorting algorithm that works through
+                        comparison. The algorithm repeatedly iterates through
+                        the list swapping elements that are out of order. Items
+                        continually 'bubble up' to their respective positions,
+                        hence the name bubble sort.
+                      </p>
+                      <p>
+                        Bubble sort is not implemented in real world scenarios,
+                        since its performance abismal as inputs grows. Instead,
+                        bubble sort is used as an introduction to algorithms in
+                        educational settings because of its simplicity and
+                        intuitiveness.
                       </p>
                     </div>
                   </div>
@@ -283,28 +280,29 @@
       <div class="fh5co-project">
         <div class="container">
           <div class="row">
-            <div class="col-md-12 to-animate" style="text-align: left">
+            <div
+              class="col-md-8 to-animate col-md-offset-2 text-center"
+              style="text-align: left"
+            >
               <p>
-                Far far away, behind the word mountains, far from the countries
-                Vokalia and Consonantia, there live the blind texts. Far far
-                away, behind the word mountains, far from the countries Vokalia
-                and Consonantia, there live the blind texts. Separated they live
-                in Bookmarksgrove right at the coast of the Semantics, a large
-                language ocean. Far far away, behind the word mountains, far
-                from the countries Vokalia and Consonantia, there live the blind
-                texts. Separated they live in Bookmarksgrove right at the coast
-                of the Semantics, a large language ocean
+                The performance and efficiency can be measured through the
+                number of operations an algorithm does in order to accomplish a
+                particular task, or in other words its run time complexity. By
+                counting the number of operations instead of execution time,
+                factors like hardware and software(which may vary are excluded).
+                In particular, how good an algorithm is, is measured mainly by
+                two things. The first being, the relationship between the input
+                size and number of operations required. For instance, does the
+                number of operations increase exponentially, linearly, or
+                logarithmically as the input size grows? Moreover, since
+                algorithms perform best with certain kinds of inputs, the worst
+                case scenario is the second criteria used to determine algorithm
+                perfomance.
               </p>
               <p>
-                Far far away, behind the word mountains, far from the countries
-                Vokalia and Consonantia, there live the blind texts. Far far
-                away, behind the word mountains, far from the countries Vokalia
-                and Consonantia, there live the blind texts. Separated they live
-                in Bookmarksgrove right at the coast of the Semantics, a large
-                language ocean. Far far away, behind the word mountains, far
-                from the countries Vokalia and Consonantia, there live the blind
-                texts. Separated they live in Bookmarksgrove right at the coast
-                of the Semantics, a large language ocean.
+                This project aims to take a look at bubble sort along with its
+                several different versions and access how each stacks against
+                one another in terms of runtime complexity.
               </p>
             </div>
           </div>
@@ -449,11 +447,6 @@
               </h2>
               <div class="row">
                 <div class="col-md-8 col-md-offset-2 subtext">
-                  <h3 class="to-animate">
-                    Far far away, behind the word mountains, far from the
-                    countries Vokalia and Consonantia, there live the blind
-                    texts. Separated they live in Bookmarksgrove.
-                  </h3>
                   <hr
                     style="
                       height: 2px;
@@ -492,22 +485,28 @@
               style="text-align: left"
             >
               <p>
-                Far far away, behind the word mountains, far from the countries
-                Vokalia and Consonantia, there live the blind texts. Separated
-                they live in Bookmarksgrove right at the coast of the Semantics,
-                a large language ocean. Far far away, behind the word mountains,
-                far from the countries Vokalia and Consonantia, there live the
-                blind texts. Separated they live in Bookmarksgrove right at the
-                coast of the Semantics, a large language ocean
+                Although, there are only three algorithmn versions, there other
+                features involved in this project such as reading and writing
+                from files as well as genarating random lists of arbitrary
+                sizes. These different parts need to integrate seemlessly and be
+                readable and in order to do so, parts of the program have been
+                divided into three parts. Each part contains classes that have
+                narrowed responsibilities.
               </p>
               <p>
-                Far far away, behind the word mountains, far from the countries
-                Vokalia and Consonantia, there live the blind texts. Separated
-                they live in Bookmarksgrove right at the coast of the Semantics,
-                a large language ocean. Far far away, behind the word mountains,
-                far from the countries Vokalia and Consonantia, there live the
-                blind texts. Separated they live in Bookmarksgrove right at the
-                coast of the Semantics, a large language ocean
+                The first of these parts is the utilites, which are classes that
+                are not directly tied to the algorithm but are essential to the
+                overall project. This section includes a class responsible for
+                reading and writing from the input and output files respectively
+                and a class that takes care of generating random list(input can
+                be given from the input file or list generator). The second
+                section includes the strucutural classes like the parent class
+                of the algorithms and interface. These classes are meant to
+                introduce and enforce object oriented programming principles
+                like reusability and access restriction. Lastly, there is the
+                algorithms classes that simply implement the different versions
+                of the algorithm. And of course the Main class that is
+                responsibly for tying these components together.
               </p>
             </div>
           </div>
@@ -528,9 +527,9 @@
                 <p>Basic Sorting</p>
                 <hr />
                 <p>
-                  Far far away, behind the word mountains, far from the
-                  countries Vokalia and Consonantia, there live the blind texts.
-                  Separated they live in Bookmarksgrove
+                  Not quite a sorting algorithm, but it implements very simple
+                  features for sorting along with some fundamental iteration
+                  techniques. Overall a very simplistic program.
                 </p>
 
                 <!-- <ul class="pricing-info">
@@ -557,9 +556,9 @@
                 <p>Standard Bubble Sort Algorithmn</p>
                 <hr />
                 <p>
-                  Far far away, behind the word mountains, far from the
-                  countries Vokalia and Consonantia, there live the blind texts.
-                  Separated they live in Bookmarksgrove
+                  The standard version of bubble sort. Includes new techniques
+                  and ensures that the algorith is sorted even at the cost of
+                  blind checks. Intuitive but key nonetheless.
                 </p>
 
                 <!-- <ul class="pricing-info">
@@ -579,9 +578,9 @@
                 <p>Better average runtime</p>
                 <hr />
                 <p>
-                  Far far away, behind the word mountains, far from the
-                  countries Vokalia and Consonantia, there live the blind texts.
-                  Separated they live in Bookmarksgrove
+                  Includes all the features of the standard sort, but in
+                  addition it contains a flag that serves as a check, to avoid
+                  re-iterating through a sorted list.
                 </p>
 
                 <!-- <ul class="pricing-info">
@@ -620,26 +619,23 @@
               style="margin-top: 30px"
             >
               <p>
-                Far far away, behind the word mountains, far from the countries
-                Vokalia and Consonantia, there live the blind texts. Far far
-                away, behind the word mountains, far from the countries Vokalia
-                and Consonantia, there live the blind texts. Separated they live
-                in Bookmarksgrove right at the coast of the Semantics, a large
-                language ocean. Far far away, behind the word mountains, far
-                from the countries Vokalia and Consonantia, there live the blind
-                texts. Separated they live in Bookmarksgrove right at the coast
-                of the Semantics, a large language ocean
+                The key takeaway from this project is that algorithmns can come
+                in a variety of forms, but they can be optimized in order to
+                achieve better overall performance. Moreover, tradeoffs like
+                memory usage and speed will need to be made in order to achieve
+                better efficiency in most cases. In this case, in order to
+                achieve better average perfomance(not improving worst time
+                case), a variable was used to check the state and reducew
+                wasteful iterations.
               </p>
               <p>
-                Far far away, behind the word mountains, far from the countries
-                Vokalia and Consonantia, there live the blind texts. Far far
-                away, behind the word mountains, far from the countries Vokalia
-                and Consonantia, there live the blind texts. Separated they live
-                in Bookmarksgrove right at the coast of the Semantics, a large
-                language ocean. Far far away, behind the word mountains, far
-                from the countries Vokalia and Consonantia, there live the blind
-                texts. Separated they live in Bookmarksgrove right at the coast
-                of the Semantics, a large language ocean.
+                This project was very fun to work on taught us many different
+                things. From measuring performance of algorithms to presenting
+                our findings, we realized there are many parts involved in
+                designing and analysing algorithms. Furthermore, we couldn't
+                help but wonder about algorithmns in bigger stages where the
+                input sizes range in the millions and other unfathomable
+                discrepancies may come up.
               </p>
             </div>
           </div>
@@ -678,37 +674,28 @@
                 <div class="user">
                   <img
                     class="img-reponsive"
-                    src="images/user-1.jpg"
-                    alt="Roger Garfield"
+                    src="images/headshot.jpg"
+                    alt="Christopher Perez"
                   />
                 </div>
                 <h3>Christopher Perez</h3>
-                <span class="position">Co-Founder, Lead Developer</span>
+                <span class="position">Team Leader, Lead Developer</span>
                 <p>
-                  Far far away, behind the word mountains, far from the
-                  countries Vokalia and Consonantia, there live the blind texts.
-                  Separated they live in Bookmarksgrove right at the coast of
-                  the Semantics, a large language ocean.
+                  A self taught developer that enjoys spending time making high
+                  quality projects that are practical. Has a range of interest
+                  from web development to robotics. Also doesn't like refering
+                  to himself in third-person.
                 </p>
                 <ul class="social-media">
                   <li>
-                    <a href="#" class="facebook"
-                      ><i class="icon-facebook"></i
+                    <a
+                      href="https://chris0016.github.io/ResumeWebsite/index.html"
+                      class="dribble"
+                      ><i class="icon-server"></i
                     ></a>
                   </li>
                   <li>
-                    <a href="#" class="twitter"><i class="icon-twitter"></i></a>
-                  </li>
-                  <li>
-                    <a href="#" class="dribbble"
-                      ><i class="icon-dribbble"></i
-                    ></a>
-                  </li>
-                  <li>
-                    <a href="#" class="codepen"><i class="icon-codepen"></i></a>
-                  </li>
-                  <li>
-                    <a href="#" class="github"
+                    <a href="https://github.com/Chris0016" class="github"
                       ><i class="icon-github-alt"></i
                     ></a>
                   </li>
@@ -721,41 +708,19 @@
                 <div class="user">
                   <img
                     class="img-reponsive"
-                    src="images/user-2.jpg"
-                    alt="Roger Garfield"
+                    src="images/user-3.jpg"
+                    alt="Thyquel Malachi"
                   />
                 </div>
                 <h3>Thyquel Malachi</h3>
-                <span class="position">Co-Founder, Product Designer</span>
+                <span class="position">Writer, Product Designer</span>
                 <p>
                   Far far away, behind the word mountains, far from the
                   countries Vokalia and Consonantia, there live the blind texts.
                   Separated they live in Bookmarksgrove right at the coast of
                   the Semantics, a large language ocean.
                 </p>
-                <ul class="social-media">
-                  <li>
-                    <a href="#" class="facebook"
-                      ><i class="icon-facebook"></i
-                    ></a>
-                  </li>
-                  <li>
-                    <a href="#" class="twitter"><i class="icon-twitter"></i></a>
-                  </li>
-                  <li>
-                    <a href="#" class="dribbble"
-                      ><i class="icon-dribbble"></i
-                    ></a>
-                  </li>
-                  <li>
-                    <a href="#" class="codepen"><i class="icon-codepen"></i></a>
-                  </li>
-                  <li>
-                    <a href="#" class="github"
-                      ><i class="icon-github-alt"></i
-                    ></a>
-                  </li>
-                </ul>
+                <ul class="social-media"></ul>
               </div>
             </div>
           </div>
