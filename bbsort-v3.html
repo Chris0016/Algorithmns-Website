@@ -8,7 +8,7 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>BBSort &mdash; Version 1</title>
+    <title>BBSort &mdash; Version 3</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- 
@@ -63,11 +63,12 @@
         <div class="container">
           <div class="row">
             <div class="col-md-12 section-heading text-center">
-              <h2 class="to-animate">Version 1: Hand-Trace</h2>
+              <h2 class="to-animate">Version 3: Optimized Bubble Sort</h2>
               <div class="row">
                 <div class="col-md-8 col-md-offset-2 subtext">
                   <h3 class="to-animate">
-                    A look at the most basic form of bubble sort. A  program the exchanges perfomance for conciseness. 
+                    The most optimized version of bubble sort that improves the
+                    average runtime by a considerable amount by using a flag.
                   </h3>
                 </div>
               </div>
@@ -75,50 +76,36 @@
           </div>
           <div class="row">
             <div class="col-md-7">
-              <img class="code-img" src="images/BBSort V1.png" />
+              <img class="code-img" src="images/BBSort V3.png" />
             </div>
             <div class="col-md-5 to-animate">
               <p>
-                The first version of bubble sort is a very basic nested
-                iteration that has a worst case and average runtime complexity
-                of n<sup>2</sup>. Regardless of whether the algorithm is sorted
-                or not, the algorithm will make n<sup>2</sup> iterations. This
-                version of the algorithm is the simplest to understand but also
-                has be worst performance.
+                As it can be seen this version of bubble sort is much more
+                complex than other version of bubble sort. This version not only
+                restricts the upper bound to eliminate some iterations, but also
+                contains a flag that is used to check whether an array is
+                sorted. Using this flags considerably improves average run time
+                in cases where the array is already sorted.
               </p>
               <p>
-                Part of what makes this version of bubble sort perform so
-                terribly is that there is no upper bound to the number of
-                iterations to do or any checks in place to determine if the
-                array is sorted or not. From a mathematical stand point, the 
-                number of operations done during each pass is 
-                <br>
-                <i> n<sup>2</sup> + n + 1 -> O(n<sup>2</sup>)</i> </p>  
-
-                <br>
-                 Note in the example below the outer for loop is missing. 
+                However, it is important to note that the worst case scenario
+                still remains O(N<sup>2</sup>) simply because of the nature of
+                nested for loops.This implies that Regardless of optimazations,
+                the greatest improvement in perfomance will always come from
+                changing the fundamental design of how the algorithm works by
+                finding clever ways to achieve the same result.
               </p>
               <img
                 class="col-md-5 code-img to-animate"
-                src="images/hand-trace-table.png"
-             style="height: 15em;padding: 0"
-                />
-              <img
-             style="margin-top: 20px;"
-              class="col-md-5 code-img to-animate code-img"
-                src="images/hand-trace-runtime.jpg"
- 
-                />
-               
-            
+                src="images/Bubble_Sort_runtime V3.png"
+              />
             </div>
           </div>
-
           <div
             class="col-md-12 section-heading text-center"
             style="margin-top: 5em"
           >
-            <h2 class="to-animate">Explore More:</h2>
+            <h2 class="to-animate">Eplore More:</h2>
             <hr
               style="
                 height: 2px;
@@ -149,7 +136,8 @@
                 </ul> -->
                 <p>
                   <a
-                    href=""
+                    href="bbsort-v1.html"
+                    target="_blank"
                     class="btn btn-primary"
                     >See Code</a
                   >
@@ -165,12 +153,24 @@
                 <hr />
                 <p>
                   The standard version of bubble sort. Includes new techniques
-                  and ensures that the algorith is sorted even at the cost of
+                  and ensures that the algorithm is sorted even at the cost of
                   blind checks. Intuitive but key nonetheless.
                 </p>
 
-              
-                <p><a href="bbsort-v2.html" target="_blank" class="btn btn-primary">See Code</a></p>
+                <!-- <ul class="pricing-info">
+                  <li>15 projects</li>
+                  <li>40 Pages</li>
+                  <li>40 Emails</li>
+                  <li>200 Images</li>
+                </ul> -->
+                <p>
+                  <a
+                    href="bbsort-v2.html"
+                    target="_blank"
+                    class="btn btn-primary"
+                    >See Code</a
+                  >
+                </p>
               </div>
             </div>
             <div class="col-md-4 col-sm-6">
@@ -192,7 +192,9 @@
                   <li>40 Emails</li>
                   <li>200 Images</li>
                 </ul> -->
-                <p><a href="bbsort-v3.html" target="_blank" class="btn btn-primary">See Code</a></p>
+                <p>
+                  <a href="#" class="btn btn-primary">See Code</a>
+                </p>
               </div>
             </div>
           </div>
